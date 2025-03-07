@@ -47,7 +47,7 @@ const About = () => {
           <div className="grid w-full grid-cols-8 gap-16 sm:gap-8 ">
             <div className="col-span-3 xl:col-span-4 flex flex-col items-start justify-start 
             text-dark/75 dark:text-light md:order-2 md:col-span-8">
-              <h2 className="mb-4 text-lg font-bold uppercase dark:text-light/75">About me</h2>
+              <h2 className="mb-4 text-lg font-bold uppercase dark:text-light/75">Biography</h2>
               <p className="font-medium">
                 Hi, I'm Moin Afzal, a web developer with a passion for creating
                 beautiful, functional, and user-centered digital experiences.
