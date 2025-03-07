@@ -12,9 +12,9 @@ const Details = ({ position, company, companyLink, time, address, work }) => {
     >
       <LiIcon reference={ref} />
       <motion.div
-      initial={{y:50}}
-      whileInView={{y:0}}
-      transition={{duration:0.5, type:"spring"}}
+        initial={{ y: 50 }}
+        whileInView={{ y: 0 }}
+        transition={{ duration: 0.5, type: "spring" }}
       >
         <h3 className="capitalize font-bold text-2xl sm:text-xl xs:text-lg ">
           {position}&nbsp;{" "}
@@ -44,8 +44,10 @@ const Experience = () => {
 
   return (
     <div className="my-64 text-dark dark:text-light">
-      <h2 className="font-bold text-8xl mb-32 w-full text-center md:text-6xl xs:text-4xl md:mb-16
-       ">
+      <h2
+        className="font-bold text-8xl mb-32 w-full text-center md:text-6xl xs:text-4xl md:mb-16
+       "
+      >
         Experience
       </h2>
 
@@ -58,43 +60,30 @@ const Experience = () => {
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
             position="Software Engineer"
-            company="Google"
+            company="Techanzy"
             companyLink="www.google.com"
-            time="2022-Present"
-            address="Mountain View, CA"
-            work="Worked on a team responsible for developing new features for Google's 
-          search engine, including improving the accuracy and relevance of search results and 
-          developing new tools for data analysis and visualization."
+            time="2023-2024"
+            address="DHA Phase-8, Lahore"
+            work="I was initially being hired as a MERN-stack developer specialising in frontend,
+             but soon upskilled to the full stack."
+          />
+          <Details
+            position="MERN-Stack Bootcamp"
+            company="Knowledge Streams"
+            companyLink="www.google.com"
+            time="2023"
+            address="Township, Lahore"
+            work="I graduated after 3 months of studying at KS and got hands-on experience through
+             many key projects. I immediately found a job as a MERN-Stack developer."
           />
           <Details
             position="Software Engineer"
-            company="Google"
+            company="Metaverse"
             companyLink="www.google.com"
-            time="2022-Present"
-            address="Mountain View, CA"
-            work="Worked on a team responsible for developing new features for Google's 
-          search engine, including improving the accuracy and relevance of search results and 
-          developing new tools for data analysis and visualization."
-          />
-          <Details
-            position="Software Engineer"
-            company="Google"
-            companyLink="www.google.com"
-            time="2022-Present"
-            address="Mountain View, CA"
-            work="Worked on a team responsible for developing new features for Google's 
-          search engine, including improving the accuracy and relevance of search results and 
-          developing new tools for data analysis and visualization."
-          />
-          <Details
-            position="Software Engineer"
-            company="Google"
-            companyLink="www.google.com"
-            time="2022-Present"
-            address="Mountain View, CA"
-            work="Worked on a team responsible for developing new features for Google's 
-          search engine, including improving the accuracy and relevance of search results and 
-          developing new tools for data analysis and visualization."
+            time="2022-2023"
+            address="UMT, Lahore"
+            work="As a part of PIAIC, this course was designed to make the full-stack modern day
+             developers using cutting-edge technologies."
           />
         </ul>
       </div>

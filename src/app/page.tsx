@@ -32,14 +32,15 @@ export default function Home() {
                 md:!text-5xl sm:!text-3xl"
               />
               <p className="py-4 text-base font-medium md:text-sm sm:text-xs">
-                As a skilled full-stack developer, I am dedicated to turning
-                ideas into innovative web applications. Explore my latest
-                projects and articles, showcasing my expertise in React.js and
-                web development.
+                As a skilled full-stack developer, with special focus on
+                frontend development, I am dedicated to turning ideas into
+                innovative web applications. Explore my latest projects and
+                articles, showcasing my expertise in React.js and web
+                development.
               </p>
               <div className="flex items-center self-start mt-2 lg:self-center">
                 <Link
-                  href="/dummy.pdf"
+                  href="/moin-afzal-resume.pdf"
                   target={"_blank"}
                   className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold 
                   hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark
