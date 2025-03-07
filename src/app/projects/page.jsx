@@ -6,7 +6,10 @@ import AnimatedText from "../../components/AnimatedText";
 import Link from "next/link";
 import Image from "next/image";
 import { GithubIcon } from "../../components/Icons";
-import projectImg1 from "../../../public/projects-images/crypto-screener-cover-image.jpg";
+import projectImg1 from "../../../public/projects-images/Extramiles.png";
+import projectImg2 from "../../../public/projects-images/Imanzy.png";
+import projectImg3 from "../../../public/projects-images/Inspiration.png";
+import projectImg4 from "../../../public/projects-images/Kaizen.jpg";
 import { motion } from "framer-motion";
 import TransitionEffect from "../../components/TransitionEffect";
 
@@ -154,11 +157,10 @@ const Projects = () => {
           >
             <div className="col-span-12">
               <FeaturedProject
-                title="Crypto Screener Application"
-                img={projectImg1}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                local currency."
+                title="AI Photo Editor"
+                img={projectImg2}
+                summary="I led this AI-based project which focused on image-generation through
+                 user prompts. AI image generation is its main feature alongwith photo editing."
                 link="/"
                 github="/"
                 type="Featured Project"
@@ -166,7 +168,7 @@ const Projects = () => {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Crypto Screener Application"
+                title="AI Photo Editor"
                 img={projectImg1}
                 link="/"
                 github="/"
@@ -175,8 +177,8 @@ const Projects = () => {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Crypto Screener Application"
-                img={projectImg1}
+                title="Extramiles"
+                img={projectImg3}
                 link="/"
                 github="/"
                 type="Featured Project"
@@ -185,7 +187,7 @@ const Projects = () => {
             <div className="col-span-12 sm:col-span-12">
               <FeaturedProject
                 title="Crypto Screener Application"
-                img={projectImg1}
+                img={projectImg4}
                 summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
                 It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
                 local currency."
@@ -194,7 +196,7 @@ const Projects = () => {
                 type="Featured Project"
               />
             </div>
-            <div className="col-span-6 sm:col-span-12">
+            {/* <div className="col-span-6 sm:col-span-12">
               <Project
                 title="Crypto Screener Application"
                 img={projectImg1}
@@ -211,7 +213,7 @@ const Projects = () => {
                 github="/"
                 type="Featured Project"
               />
-            </div>
+            </div> */}
           </div>
         </Layout>
       </main>
