@@ -157,19 +157,10 @@ const Projects = () => {
           >
             <div className="col-span-12">
               <FeaturedProject
-                title="AI Photo Editor"
-                img={projectImg2}
-                summary="I led this AI-based project which focused on image-generation through
-                 user prompts. AI image generation is its main feature alongwith photo editing."
-                link="/"
-                github="/"
-                type="Featured Project"
-              />
-            </div>
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                title="AI Photo Editor"
-                img={projectImg1}
+                title="Kaizen"
+                img={projectImg4}
+                summary="I created this Web-Dashboard for Admin & Users, for a posture alignment 
+                app, with frontend on Next.js and backend written on python."
                 link="/"
                 github="/"
                 type="Featured Project"
@@ -178,19 +169,27 @@ const Projects = () => {
             <div className="col-span-6 sm:col-span-12">
               <Project
                 title="Extramiles"
+                img={projectImg1}
+                link="/"
+                github="/"
+                type="Website"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="Inspiration Animation"
                 img={projectImg3}
                 link="/"
                 github="/"
-                type="Featured Project"
+                type="Website"
               />
             </div>
             <div className="col-span-12 sm:col-span-12">
               <FeaturedProject
-                title="Crypto Screener Application"
-                img={projectImg4}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                local currency."
+                title="Imanzy"
+                img={projectImg2}
+                summary="I led this AI-based project which focused on image-generation through
+                 user prompts. AI image generation is its main feature alongwith photo editing."
                 link="/"
                 github="/"
                 type="Featured Project"
